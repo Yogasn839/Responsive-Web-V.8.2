@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap");
+:root {
+    --heading-font: 'Montserrat', sans-serif;
+    --body-font: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #9C835F;
+    display: flex;
+}
+
+.header {
+    margin: 1.5rem;
+    margin-top: 1rem;
+    letter-spacing: 0.2rem;
+    display: flex;
+}
+
+.body2 {
+    margin-left: 5rem;
+    display: flex;
+}
+
+.buttonicon {
+    font-size: 50px;
+    margin-top: 0.1rem;
+    color: #CEAB93;
+}
+
+.buttonicon a {
+    color: #733C3C;
+}
+
+.buttonicon a:hover {
+    color: azure
+}
+
+.imagelogo {
+    margin-top: 0.5rem;
+    display: flex;
+    width: 5rem;
+    width: 60px;
+    height: 60px;
+}
+
+.title-text h1 {
+    margin: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 25px;
+    letter-spacing: 0.1rem;
+    font-family: var(--heading-font);
+    font-weight: bold;
+    text-align: center;
+    color: #F0A500;
+}
+
+.player-title {
+    font-family: var(--body-font);
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+
+.com-title {
+    font-family: var(--body-font);
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+
+.figure {
+    min-height: 3rem;
+    text-align: center;
+}
+
+.figure img {
+    height: 120px;
+    width: 120px;
+}
+
+.player:hover {
+    transform: scale(1.2) rotate(15deg);
+}
+
+.win-player,
+.win-com {
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    margin-top: 10rem;
+    transform: rotate(-15deg);
+    height: 10rem;
+    padding-top: 2.5rem;
+    margin-bottom: 10rem;
+    display: none;
+}
+
+.win-player {
+    background-color: #4C9654;
+}
+
+.win-com {
+    background-color: red;
+}
+
+.draw {
+    color: black;
+    font-family: sans-serif;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    margin-top: 10rem;
+    background-color: rgb(199, 199, 58);
+    transform: rotate(-15deg);
+    height: 10rem;
+    padding-top: 3.5rem;
+    margin-bottom: 10rem;
+    display: none;
+}
+
+.vs {
+    color: #e20707;
+    font-weight: bold;
+    font-family: var(--heading-font);
+    letter-spacing: 0.1rem;
+    font-size: 100px;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.reset-button {
+    max-width: 5rem;
+}
+
+.reset-button:hover {
+    animation: rotate 1s normal;
+}
+
+@keyframes rotate {
+    80% {
+        transform: rotate(120deg);
+    }
+}
